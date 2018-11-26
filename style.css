@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, SansSerif, serif;
+    font-family: "Times New Roman", SansSerif, serif;
     font-size: 100%;
     margin: 15px auto;
     width: 70%;
@@ -32,12 +32,17 @@ h1 {
 #slide_line{width:100%;margin:0 auto;text-align:center;overflow:hidden;}
 #slide_line img{width:33%;height:auto;}
 
-
-
 a {
     display: inline;
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
 }
 
+H2  {
+    color: darkblue;
+    font-weight: bold;
+}
 
 .block {
     float: left;
@@ -54,29 +59,30 @@ a {
 .img {
     width: 100%;
     border-radius: 15px;
+    transition: all 0.5s ease-out;
+}
+
+.img:hover {
+    transform: scale(1.1);
 }
 
 @media (max-width:1300px){
-
 
     body {
         font-family: Arial, SansSerif, serif;
         font-size: 100%;
         margin: 15px auto;
         width: 90%;
-
     }
 }
 
 @media (max-width:1000px){
-
 
     body {
         font-family: Arial, SansSerif, serif;
         font-size: 100%;
         margin: 15px auto;
         width: 100%;
-
     }
 }
 
@@ -95,14 +101,10 @@ a {
         font-size: 100%;
         margin: 15px auto;
         width: 100%;
-
     }
-
 }
 @media (max-width:600px){
-    #slide_line img{width:99%;}
-
-
+    #slide_line img{width:27%;}
 }
 
 
