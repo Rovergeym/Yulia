@@ -1,13 +1,26 @@
-.body {
+body {
     font-family: Arial, SansSerif, serif;
     font-size: 100%;
     margin: 15px auto;
-    width: 1200px;
+    width: 70%;
+
+}
+h1 {
+    display: none;
+}
+
+.logo-img {
+    padding-right: 15px;
+}
+.header {
     background-color: white;
+    padding: 10px 10px 10px 10px;
+    border: dot-dash;
+    border-radius: 15px;
 }
 
 .background {
-    background-image: linear-gradient(greenyellow, white);
+    background-image: linear-gradient(white, white, pink);
     height: 100%;
     width: 100%;
     position: fixed;
@@ -20,11 +33,80 @@
 #slide_line img{width:33%;height:auto;}
 
 
-@media (max-width:800px){
+
+a {
+    display: inline;
+}
+
+
+.block {
+    float: left;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: center;
+    width: 17%;
+}
+
+.con{
+    text-align: center;
+}
+
+.img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+@media (max-width:1300px){
+
+
+    body {
+        font-family: Arial, SansSerif, serif;
+        font-size: 100%;
+        margin: 15px auto;
+        width: 90%;
+
+    }
+}
+
+@media (max-width:1000px){
+
+
+    body {
+        font-family: Arial, SansSerif, serif;
+        font-size: 100%;
+        margin: 15px auto;
+        width: 100%;
+
+    }
+}
+
+@media (max-width:750px){
     #slide_line img{width:28%;max-width:160px;margin-right:1%;}
+    .block {
+        float: left;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        width: 30%;
+    }
+
+    body {
+        font-family: Arial, SansSerif, serif;
+        font-size: 100%;
+        margin: 15px auto;
+        width: 100%;
+
+    }
+
 }
-@media (max-width:450px){
+@media (max-width:600px){
     #slide_line img{width:99%;}
+
+
 }
+
+
+
+
 
 
